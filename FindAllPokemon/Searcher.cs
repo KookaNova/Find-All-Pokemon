@@ -48,8 +48,9 @@ namespace FindAllPokemon
             {
                 Console.WriteLine(mon.Number + " : " + mon.Name);
                 pokemon.Add(mon.Number + "/" + mon.Name);
-                Console.WriteLine("Type 'save' to serialize the file to an XML");
+                
             }
+            Console.WriteLine("Type 'save' to serialize the file to an XML");
         }
         public record Pokemon(string Number, string Name);
 
