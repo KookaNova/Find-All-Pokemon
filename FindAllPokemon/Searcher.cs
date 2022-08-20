@@ -50,7 +50,7 @@ namespace FindAllPokemon
                 pokemon.Add(mon.Number + "/" + mon.Name);
                 
             }
-            Console.WriteLine("Type 'save' to serialize the file to an XML");
+            Console.WriteLine("Type 'save' to serialize the file to an TXT");
         }
         public record Pokemon(string Number, string Name);
 
